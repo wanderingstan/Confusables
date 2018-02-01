@@ -1,5 +1,5 @@
 # Confusables
-Simple python library for matching a string to another string that is same but
+Simple python 3 class for matching a string to another string that is same but
 has letters that only *look* the same as original string. unicode.org
 provides a nice list of "confusable" letters.  This class uses that
 info to turn a string into a regular expression pattern that includes all
@@ -17,3 +17,7 @@ E.g. "𝓗℮𝐥1೦" would match "Hello"
 
 Note: Some characgters above may not render in your browser correctly. 
 
+Probably best to combine this with removing accented characters in the text to be searched. Several ways explained here: https://stackoverflow.com/questions/517923/what-is-the-best-way-to-remove-accents-in-a-python-unicode-string
+
+
+Inspiration: https://stackoverflow.com/questions/9491890/is-there-a-list-of-characters-that-look-similar-to-english-letters/48555901#48555901
