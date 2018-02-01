@@ -10,8 +10,8 @@ these confusable variations.
 E.g. "𝓗℮𝐥1೦" would match "Hello"
 """
 
-import re
 from collections import defaultdict
+import re
 
 # confusables.txt should contain contents of
 # http://www.unicode.org/Public/security/latest/confusables.txt
@@ -53,19 +53,4 @@ class Confusables:
             else:
                 new += c
         return new
-
-c = Confusables('confusables.txt')
-
-
-string = "Hello"
-cpattern = c.confusables_regex(string)
-print("Regexp pattern: {}".format(cpattern))
-r = re.compile(cpattern)
-
-fake_string = "𝓗℮𝐥1೦"
-
-if r.match(fake_string):
-    print("Matched!")
-else:
-    print("No match")
 
