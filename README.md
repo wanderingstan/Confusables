@@ -17,3 +17,4 @@ E.g. "𝓗℮𝐥1೦" would match "Hello"
 
 Note: Some characgters above may not render in your browser correctly. 
 
+Inspiration: https://stackoverflow.com/questions/9491890/is-there-a-list-of-characters-that-look-similar-to-english-letters/48555901#48555901
