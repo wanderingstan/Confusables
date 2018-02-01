@@ -3,6 +3,10 @@
 from confusables import Confusables
 import re
 
+"""
+Quick demo of Confusables class
+"""
+
 c = Confusables('confusables.txt')
 
 string = "Hello"
