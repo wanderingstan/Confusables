@@ -1,5 +1,5 @@
 # Confusables
-Simple python library for matching a string to another string that is same but
+Simple python 3 class for matching a string to another string that is same but
 has letters that only *look* the same as original string. unicode.org
 provides a nice list of "confusable" letters.  This class uses that
 info to turn a string into a regular expression pattern that includes all
