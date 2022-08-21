@@ -1,8 +1,7 @@
 # 𝑪೦𝖓𝖋𝕦𝓼𝐚Б𝟭℮𝖘 (Confusables)
 A simple Python 3 class for matching a strings that have letters that only *look* the same as original string. 
 
-[unicode.org provides a list of "confusable" letters](http://www.unicode.org/Public/security/latest/confusables.txt).  
-This class uses that `confusables.txt` file to turn a string into a regular expression 
+[unicode.org provides a list of "confusable" letters](http://www.unicode.org/Public/security/latest/confusables.txt).  This class uses that `confusables.txt` file to turn a string into a regular expression 
 pattern that includes all these confusable variations.
 
 E.g. "𝓗℮𝐥1೦" would match "Hello"
